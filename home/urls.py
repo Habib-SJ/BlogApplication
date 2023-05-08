@@ -1,6 +1,8 @@
 from froala_editor import views
+from .views import *
 
 
 urlpatterns = [
-    path('froala_editor/', include('froala_editor.urls'))
+
+
 ]
